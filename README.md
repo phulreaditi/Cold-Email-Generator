@@ -45,6 +45,7 @@ The output is plain text, ready to display in Streamlit.
 ![File Structure](imgs/file_struct.png)
 
 
+
 Workflow:
 
 1.User Input → Paste job posting URL
