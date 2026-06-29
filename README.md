@@ -37,24 +37,12 @@ The model then composes a professional, tailored email that highlights the backg
 The output is plain text, ready to display in Streamlit.
 
 
-File Structure:
+## Architecture Diagram
+![Architecture Diagram](imgs/block diagram.png)
 
-Cold email generator/
-│
-├── app/
-│   ├── resource/
-│   │   ├── .env
-│   │   ├── my_portfolio.csv
-│   ├── chains.py
-│   ├── main.py
-│   ├── portfolio.py
-│   ├── utils.py
-│   ├── requirement.txt
-│
-├── vectorstore/
-│   ├── chroma.sqlite3
-│
-├── README.md
+
+## File Structure
+![File Structure](imgs/File struct.png)
 
 
 Workflow:
@@ -66,7 +54,9 @@ Workflow:
 5.Email Generation → Groq LLM writes professional cold email
 6.Display → Streamlit shows the final email
 
-![Block Diagram](imgs/block diagram.png)
+
+## Generated Email Example
+![Generated Email](imgs/Generated email.png)
 
 
 Future Improvements:
