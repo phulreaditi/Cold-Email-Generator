@@ -56,7 +56,8 @@ Workflow:
 
 
 ## Generated Email Example
-![Generated Email](imgs/Generated_email.png)
+![Generated Email Example](imgs/generated_email.png)
+
 
 
 Future Improvements:
