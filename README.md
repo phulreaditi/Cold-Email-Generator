@@ -8,6 +8,7 @@ The Cold Email Generator is a Generative AI‑powered application that automat
 It uses LangChain, Groq’s Llama 3.3 model, and Streamlit to extract job details from career pages and generate personalized cold emails for Computer Science‑related roles.
 
 
+
 Features:
 
 1.Scrapes job descriptions directly from career websites.
@@ -19,6 +20,7 @@ Features:
 4.Generates polished, professional cold emails automatically.
 
 5.Interactive Streamlit UI with real‑time generation and error handling.
+
 
 
 Tech Stack:
@@ -34,6 +36,7 @@ ChromaDB --> Portfolio vector storage
 pandas --> CSV data handling
 
 dotenv --> Secure API‑key management
+
 
 
 Groq’s Llama 3.3 model LLM is used as the intelligence layer in my project. It does two main things:
@@ -63,15 +66,10 @@ The output is plain text, ready to display in Streamlit.
 Workflow:
 
 1.User Input -> Paste job posting URL
-
 2.Scraping & Cleaning -> Extract and preprocess text
-
 3.Job Extraction -> Groq LLM converts text into structured JSON
-
 4.Portfolio Matching -> ChromaDB finds relevant links
-
 5.Email Generation -> Groq LLM writes professional cold email
-
 6.Display -> Streamlit shows the final email
 
 
@@ -90,6 +88,7 @@ Future Improvements:
 3.Integrate resume upload and automatic attachment.
 
 4.Deploy on Streamlit Cloud or Azure.
+
 
 
 
