@@ -42,7 +42,7 @@ The output is plain text, ready to display in Streamlit.
 
 
 ## File Structure
-![File Structure](imgs/file_struct.png)
+![File Structure](imgs/File_struct.png)
 
 
 
