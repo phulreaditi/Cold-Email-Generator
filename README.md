@@ -37,12 +37,12 @@ The model then composes a professional, tailored email that highlights the backg
 The output is plain text, ready to display in Streamlit.
 
 
-## Architecture Diagram
-![Architecture Diagram](imgs/block diagram.png)
+## Block Diagram
+![Block Diagram](imgs/block_diagram.png)
 
 
 ## File Structure
-![File Structure](imgs/File struct.png)
+![File Structure](imgs/file_struct.png)
 
 
 Workflow:
@@ -56,7 +56,7 @@ Workflow:
 
 
 ## Generated Email Example
-![Generated Email](imgs/Generated email.png)
+![Generated Email](imgs/generated_email.png)
 
 
 Future Improvements:
