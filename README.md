@@ -42,7 +42,7 @@ The output is plain text, ready to display in Streamlit.
 
 
 ## File Structure
-![File Structure](imgs/file_struct.png)
+![File Structure](imgs/File_struct.png)
 
 
 Workflow:
@@ -56,7 +56,7 @@ Workflow:
 
 
 ## Generated Email Example
-![Generated Email](imgs/generated_email.png)
+![Generated Email](imgs/Generated_email.png)
 
 
 Future Improvements:
