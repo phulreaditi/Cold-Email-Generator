@@ -66,10 +66,15 @@ The output is plain text, ready to display in Streamlit.
 Workflow:
 
 1.User Input -> Paste job posting URL
+
 2.Scraping & Cleaning -> Extract and preprocess text
+
 3.Job Extraction -> Groq LLM converts text into structured JSON
+
 4.Portfolio Matching -> ChromaDB finds relevant links
+
 5.Email Generation -> Groq LLM writes professional cold email
+
 6.Display -> Streamlit shows the final email
 
 
